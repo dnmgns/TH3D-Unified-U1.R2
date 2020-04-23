@@ -363,7 +363,7 @@
 //===========================================================================
 // Creality Ender 3/3 Pro Options - Select 'Sanguino 1284p' from Tools > Board
 //===========================================================================
-//#define ENDER3
+#define ENDER3
 
 // If you are using our EZOut V1/V2 (connected to LCD header) filament sensor kit please follow the install guide
 // and then uncomment the #define EZOUT_ENABLE line below.
@@ -883,7 +883,7 @@
 
 // If you want a more granular control over the babystepping uncomment the below line.
 // This will make the adjustment finer than the standard setting.
-//#define FINE_BABYSTEPPING
+#define FINE_BABYSTEPPING
 
 // This will extrapolate the implied tilt of the bed outside of the probe area. Do not comment out unless directed by support.
 #define EZABL_OUTSIDE_GRID_COMPENSATION
@@ -1005,10 +1005,10 @@
 //#define FAN_FIX
 
 // Use your own printer name
-//#define USER_PRINTER_NAME "CHANGE ME" 
+#define USER_PRINTER_NAME "Lindvall-E3P"
 
 // If your printer is homing to the endstops hard uncomment this to change the homing speed/divisor to make it less aggressive.
-//#define SLOWER_HOMING
+#define SLOWER_HOMING
 
 // Using a Creality Silent Board? Enable the below option to set the correct driver setting for those boards
 //#define TMC_CREALITY_BOARD
@@ -1019,7 +1019,7 @@
 //#define TM3D_BOOT
 
 // Disable Bootscreen completely
-//#define DISABLE_BOOT
+#define DISABLE_BOOT
 
 //===========================================================================
 //*************************** COMMUNITY FEATURES ****************************
@@ -1062,7 +1062,7 @@
 // Mesh Bed Leveling Documentation: http://marlinfw.org/docs/gcode/G029-mbl.html If used with a 1284P board the bootscreen will be disabled to save space.
 // NOTE: This is not supported on the Wanhao i3 Plus due to the LCD limitations.
 // NOTE: If you want to automate the leveling process our EZABL kits do this for you. Check them out here: http://EZABL.TH3DStudio.com
-//#define MANUAL_MESH_LEVELING
+#define MANUAL_MESH_LEVELING
 
 // POWER LOSS RECOVERY -----------------------------
 // Continue after Power-Loss feature will store the current state to the SD Card at the start of each layer
